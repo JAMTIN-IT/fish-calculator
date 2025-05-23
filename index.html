@@ -708,25 +708,29 @@
             const selectedFish = filteredData[speciesIndex];
             
             // Calculate: W = e^(ln(a) + b * ln(L))
+            // This gives weight in kg as per fisheries science convention
             const logWeight = selectedFish.logIntercept + selectedFish.slope * Math.log(length);
-            const weight = Math.exp(logWeight);
+            const weightInKg = Math.exp(logWeight);
 
-            displayResult(weight, length, selectedFish);
+            displayResult(weightInKg, length, selectedFish);
         }
 
-        function displayResult(weight, length, fishData) {
+        function displayResult(weightInKg, length, fishData) {
             const resultDiv = document.getElementById('result');
             const weightDisplay = document.getElementById('weight-display');
             const speciesDetails = document.getElementById('species-details');
 
-            // Format weight
+            // Format weight - note that weightInKg is already in kilograms
             let weightText;
-            if (weight < 1) {
-                weightText = `${(weight * 1000).toFixed(2)} g`;
-            } else if (weight < 1000) {
-                weightText = `${weight.toFixed(2)} g`;
+            if (weightInKg < 0.001) {
+                // Tiny fish: show in grams with 2 decimal places (less than 1g)
+                weightText = `${(weightInKg * 1000).toFixed(2)} g`;
+            } else if (weightInKg < 1) {
+                // Small fish: show in grams with 2 decimal places (1g to 1kg)
+                weightText = `${(weightInKg * 1000).toFixed(2)} g`;
             } else {
-                weightText = `${(weight / 1000).toFixed(2)} kg`;
+                // Medium to large fish: show in kilograms with 2 decimal places (1kg+)
+                weightText = `${weightInKg.toFixed(2)} kg`;
             }
 
             weightDisplay.textContent = weightText;
