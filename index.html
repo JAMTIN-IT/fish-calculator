@@ -112,11 +112,18 @@
             background: #ffffff;
             font-size: 14px;
             overflow-y: auto;
+            -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+            -webkit-appearance: none; /* Remove default styling on iOS */
+            -moz-appearance: none;
+            appearance: none;
         }
 
         .species-select option {
-            padding: 10px 12px;
+            padding: 12px 16px; /* Larger touch targets */
             border-bottom: 1px solid #f8f9fa;
+            white-space: normal; /* Allow text to wrap */
+            min-height: 44px; /* Minimum height for better touch targets */
+            display: block;
         }
 
         .species-select option:hover {
@@ -371,6 +378,10 @@
                 max-width: 100%;
             }
             
+            .app-header {
+                padding: 24px 16px 16px;
+            }
+            
             .app-content {
                 padding: 16px;
             }
@@ -381,6 +392,23 @@
             
             .weight-display {
                 font-size: 32px;
+            }
+            
+            /* Mobile-specific styles for species select */
+            .species-select {
+                max-height: 200px; /* Slightly taller on mobile */
+                -webkit-tap-highlight-color: rgba(0,0,0,0); /* Remove tap highlight */
+            }
+            
+            .species-select option {
+                padding: 14px 16px; /* Even larger touch targets on mobile */
+                font-size: 16px; /* Larger text for better readability */
+            }
+            
+            /* Better search experience on mobile */
+            .search-input {
+                padding: 14px 16px 14px 40px; /* Larger input on mobile */
+                font-size: 16px; /* Prevent zoom on iOS */
             }
         }
     </style>
@@ -419,7 +447,7 @@
                             <div class="search-icon">🔍</div>
                             <input type="text" id="species-search" class="search-input" placeholder="Search species...">
                         </div>
-                        <select id="species-select" class="species-select" size="5">
+                        <select id="species-select" class="species-select" size="6">
                             <option value="">Select a species...</option>
                         </select>
                     </div>
