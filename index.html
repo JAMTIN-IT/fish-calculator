@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Weight Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f8f9fa;
+            min-height: 100vh;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        .app-container {
+            max-width: 420px;
+            margin: 0 auto;
+            background: #ffffff;
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .app-header {
+            background: #ffffff;
+            padding: 40px 24px 24px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .app-header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .app-header .subtitle {
+            font-size: 14px;
+            color: #6c757d;
+            font-weight: 400;
+        }
+
+        .app-content {
+            padding: 24px;
+        }
+
+        .form-section {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 16px;
+            border: 1px solid #e9ecef;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #495057;
+            font-size: 14px;
+        }
+
+        .search-container {
+            position: relative;
+            margin-bottom: 12px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 16px 12px 40px;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 16px;
+            background: #ffffff;
+            transition: border-color 0.2s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #495057;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #adb5bd;
+            font-size: 16px;
+        }
+
+        .species-select {
+            width: 100%;
+            max-height: 180px;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            background: #ffffff;
+            font-size: 14px;
+            overflow-y: auto;
+        }
+
+        .species-select option {
+            padding: 10px 12px;
+            border-bottom: 1px solid #f8f9fa;
+        }
+
+        .species-select option:hover {
+            background-color: #f8f9fa;
+        }
+
+        .length-input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 16px;
+            background: #ffffff;
+            transition: border-color 0.2s ease;
+        }
+
+        .length-input:focus {
+            outline: none;
+            border-color: #495057;
+        }
+
+        .calculate-btn {
+            width: 100%;
+            padding: 14px;
+            background: #495057;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            margin-top: 8px;
+        }
+
+        .calculate-btn:hover {
+            background: #343a40;
+        }
+
+        .calculate-btn:active {
+            background: #23272b;
+        }
+
+        .calculate-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .result-section {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 24px;
+            margin-top: 16px;
+            border: 1px solid #e9ecef;
+            display: none;
+        }
+
+        .result-section.show {
+            display: block;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .result-title {
+            color: #495057;
+            margin-bottom: 16px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .weight-display {
+            font-size: 36px;
+            font-weight: 600;
+            color: #2c3e50;
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+
+        .fish-details {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .details-title {
+            color: #495057;
+            margin-bottom: 12px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .detail-label {
+            color: #6c757d;
+            font-weight: 400;
+        }
+
+        .detail-value {
+            color: #495057;
+            font-weight: 500;
+            text-align: right;
+        }
+
+        .growth-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            background: #e9ecef;
+            color: #495057;
+        }
+
+        .about-section {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 24px;
+            margin-top: 16px;
+            border: 1px solid #e9ecef;
+        }
+
+        .about-title {
+            color: #495057;
+            margin-bottom: 16px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .about-text {
+            color: #6c757d;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .about-text:last-child {
+            margin-bottom: 0;
+        }
+
+        .limitations {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .limitations-title {
+            color: #495057;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+
+        .limitation-item {
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+
+        .limitation-category {
+            font-weight: 500;
+            color: #495057;
+        }
+
+        .limitation-text {
+            color: #6c757d;
+            margin-left: 8px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+        }
+
+        .loading-spinner {
+            width: 32px;
+            height: 32px;
+            border: 2px solid #e9ecef;
+            border-top: 2px solid #495057;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .file-input-section {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 16px;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #495057;
+            display: none;
+        }
+
+        .file-input {
+            width: 100%;
+            padding: 12px;
+            border: 2px dashed #dee2e6;
+            border-radius: 6px;
+            background: #f8f9fa;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.2s ease;
+        }
+
+        .file-input:hover {
+            border-color: #495057;
+        }
+
+        .file-input input {
+            display: none;
+        }
+
+        .error-message {
+            color: #dc3545;
+            background: #f8d7da;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin: 16px 0;
+        }
+
+        .info-message {
+            color: #0c5460;
+            background: #d4edda;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin: 16px 0;
+        }
+
+        @media (max-width: 480px) {
+            .app-container {
+                max-width: 100%;
+            }
+            
+            .app-content {
+                padding: 16px;
+            }
+            
+            .form-section, .about-section {
+                padding: 20px;
+            }
+            
+            .weight-display {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="app-header">
+            <h1>Fish Weight Calculator</h1>
+            <div class="subtitle">Scientific length-to-weight estimation</div>
+        </div>
+
+        <div class="app-content">
+            <div id="loading" class="loading">
+                <div class="loading-spinner"></div>
+                <div>Loading fish database...</div>
+            </div>
+
+            <div id="file-input-section" class="file-input-section">
+                <div class="info-message">
+                    <strong>Manual File Loading Required</strong><br>
+                    For security reasons, the JSON file couldn't be loaded automatically. Please select the fish_data.json file below.
+                </div>
+                <label for="file-upload" style="margin-bottom: 12px; display: block; font-weight: 500;">Load Fish Database:</label>
+                <div class="file-input" onclick="document.getElementById('file-upload').click()">
+                    <input type="file" id="file-upload" accept=".json" onchange="loadFileData(this)">
+                    <div>📁 Click to select fish_data.json file</div>
+                    <div style="font-size: 12px; color: #6c757d; margin-top: 4px;">Or drag and drop the file here</div>
+                </div>
+            </div>
+
+            <div id="calculator" style="display: none;">
+                <div class="form-section">
+                    <div class="form-group">
+                        <label for="species-search">Fish Species</label>
+                        <div class="search-container">
+                            <div class="search-icon">🔍</div>
+                            <input type="text" id="species-search" class="search-input" placeholder="Search species...">
+                        </div>
+                        <select id="species-select" class="species-select" size="5">
+                            <option value="">Select a species...</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="length-input">Length (cm)</label>
+                        <input type="number" id="length-input" class="length-input" min="0.1" step="0.1" placeholder="Enter fish length">
+                    </div>
+
+                    <button class="calculate-btn" onclick="calculateWeight()">
+                        Calculate Weight
+                    </button>
+                </div>
+
+                <div id="result" class="result-section">
+                    <div class="result-title">Estimated Weight</div>
+                    <div class="weight-display" id="weight-display"></div>
+                    
+                    <div class="fish-details">
+                        <div class="details-title">Calculation Details</div>
+                        <div id="species-details"></div>
+                    </div>
+                </div>
+
+                <div class="about-section">
+                    <div class="about-title">About This Tool</div>
+                    <div class="about-text">
+                        Uses the allometric equation <strong>W = a × L<sup>b</sup></strong> with species-specific coefficients from scientific literature.
+                    </div>
+                    <div class="about-text">
+                        Database includes 276 fish species from South African waters.
+                    </div>
+                    
+                    <div class="limitations">
+                        <div class="limitations-title">Important Notes</div>
+                        <div class="limitation-item">
+                            <span class="limitation-category">Accuracy:</span>
+                            <span class="limitation-text">Results are estimates based on population averages</span>
+                        </div>
+                        <div class="limitation-item">
+                            <span class="limitation-category">Variation:</span>
+                            <span class="limitation-text">Individual fish may differ due to season, condition, and environment</span>
+                        </div>
+                        <div class="limitation-item">
+                            <span class="limitation-category">Usage:</span>
+                            <span class="limitation-text">For educational and estimation purposes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let fishData = [];
+        let filteredData = [];
+
+        async function loadFishData() {
+            try {
+                // First, try to load automatically from same directory
+                console.log('Attempting to load fish_data.json automatically...');
+                const response = await fetch('fish_data.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                fishData = await response.json();
+                
+                if (!Array.isArray(fishData) || fishData.length === 0) {
+                    throw new Error('Invalid fish data format');
+                }
+                
+                console.log(`✅ Successfully loaded ${fishData.length} fish species automatically`);
+                
+                filteredData = [...fishData];
+                populateSpeciesSelect();
+                setupSearch();
+                
+                // Hide loading and show calculator
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('calculator').style.display = 'block';
+                
+            } catch (error) {
+                console.log('❌ Automatic loading failed:', error.message);
+                console.log('🔄 Falling back to manual file upload...');
+                
+                // Hide loading and show file upload
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('file-input-section').style.display = 'block';
+            }
+        }
+
+        function loadFileData(input) {
+            const file = input.files[0];
+            if (!file) return;
+
+            if (file.type !== 'application/json' && !file.name.endsWith('.json')) {
+                alert('Please select a JSON file.');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    fishData = JSON.parse(e.target.result);
+                    
+                    if (!Array.isArray(fishData) || fishData.length === 0) {
+                        throw new Error('Invalid fish data format');
+                    }
+                    
+                    console.log(`✅ Successfully loaded ${fishData.length} fish species from file`);
+                    
+                    filteredData = [...fishData];
+                    populateSpeciesSelect();
+                    setupSearch();
+                    
+                    // Hide file input and show calculator
+                    document.getElementById('file-input-section').style.display = 'none';
+                    document.getElementById('calculator').style.display = 'block';
+                    
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                    alert('Error reading JSON file. Please check the file format.');
+                }
+            };
+
+            reader.readAsText(file);
+        }
+
+        function populateSpeciesSelect() {
+            const select = document.getElementById('species-select');
+            select.innerHTML = '<option value="">Select a species...</option>';
+            
+            filteredData.forEach((fish, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = `${fish.commonName} (${fish.scientificName})`;
+                select.appendChild(option);
+            });
+        }
+
+        function setupSearch() {
+            const searchInput = document.getElementById('species-search');
+            const select = document.getElementById('species-select');
+
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                if (searchTerm === '') {
+                    filteredData = [...fishData];
+                } else {
+                    filteredData = fishData.filter(fish => 
+                        fish.commonName.toLowerCase().includes(searchTerm) ||
+                        fish.scientificName.toLowerCase().includes(searchTerm)
+                    );
+                }
+                
+                populateSpeciesSelect();
+            });
+
+            select.addEventListener('change', function() {
+                if (this.value !== '') {
+                    const selectedFish = filteredData[this.value];
+                    searchInput.value = selectedFish.commonName;
+                }
+            });
+        }
+
+        function calculateWeight() {
+            const speciesSelect = document.getElementById('species-select');
+            const lengthInput = document.getElementById('length-input');
+            const resultDiv = document.getElementById('result');
+            
+            const speciesIndex = speciesSelect.value;
+            const length = parseFloat(lengthInput.value);
+
+            if (speciesIndex === '' || speciesIndex === null) {
+                alert('Please select a fish species.');
+                return;
+            }
+
+            if (!length || length <= 0) {
+                alert('Please enter a valid length greater than 0.');
+                return;
+            }
+
+            const selectedFish = filteredData[speciesIndex];
+            
+            // Calculate: W = e^(ln(a) + b * ln(L))
+            const logWeight = selectedFish.logIntercept + selectedFish.slope * Math.log(length);
+            const weight = Math.exp(logWeight);
+
+            displayResult(weight, length, selectedFish);
+        }
+
+        function displayResult(weight, length, fishData) {
+            const resultDiv = document.getElementById('result');
+            const weightDisplay = document.getElementById('weight-display');
+            const speciesDetails = document.getElementById('species-details');
+
+            // Format weight
+            let weightText;
+            if (weight < 1) {
+                weightText = `${(weight * 1000).toFixed(0)} g`;
+            } else if (weight < 1000) {
+                weightText = `${weight.toFixed(1)} g`;
+            } else {
+                weightText = `${(weight / 1000).toFixed(2)} kg`;
+            }
+
+            weightDisplay.textContent = weightText;
+
+            const growthType = getGrowthType(fishData.slope);
+            
+            speciesDetails.innerHTML = `
+                <div class="detail-row">
+                    <span class="detail-label">Species</span>
+                    <span class="detail-value">${fishData.commonName}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Scientific name</span>
+                    <span class="detail-value">${fishData.scientificName}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Length type</span>
+                    <span class="detail-value">${fishData.lengthType}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Input length</span>
+                    <span class="detail-value">${length} cm</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Growth pattern</span>
+                    <span class="detail-value">
+                        <span class="growth-badge">${growthType}</span>
+                    </span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Coefficient (b)</span>
+                    <span class="detail-value">${fishData.slope.toFixed(3)}</span>
+                </div>
+            `;
+
+            resultDiv.classList.add('show');
+            resultDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        function getGrowthType(slope) {
+            if (Math.abs(slope - 3.0) < 0.05) {
+                return 'Isometric';
+            } else if (slope < 3.0) {
+                return 'Negative Allometric';
+            } else {
+                return 'Positive Allometric';
+            }
+        }
+
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', function() {
+            // Try to load automatically first
+            loadFishData();
+            
+            // Setup drag and drop for file input
+            const fileInput = document.querySelector('.file-input');
+            
+            if (fileInput) {
+                fileInput.addEventListener('dragover', function(e) {
+                    e.preventDefault();
+                    this.style.borderColor = '#495057';
+                });
+                
+                fileInput.addEventListener('dragleave', function(e) {
+                    e.preventDefault();
+                    this.style.borderColor = '#dee2e6';
+                });
+                
+                fileInput.addEventListener('drop', function(e) {
+                    e.preventDefault();
+                    this.style.borderColor = '#dee2e6';
+                    
+                    const files = e.dataTransfer.files;
+                    if (files.length > 0) {
+                        document.getElementById('file-upload').files = files;
+                        loadFileData(document.getElementById('file-upload'));
+                    }
+                });
+            }
+            
+            // Allow Enter key to calculate
+            document.getElementById('length-input').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    calculateWeight();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

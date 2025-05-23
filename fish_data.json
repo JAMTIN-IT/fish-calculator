@@ -1,0 +1,2210 @@
+[
+  {
+    "commonName": "Angelshark",
+    "scientificName": "Squatina africana",
+    "lengthType": "Total length",
+    "smithNo": "21.1",
+    "logIntercept": -11.35134983,
+    "slope": 2.933115959
+  },
+  {
+    "commonName": "Catshark (Banded)",
+    "scientificName": "Halaelurus lineatus",
+    "lengthType": "Total length",
+    "smithNo": "11.5",
+    "logIntercept": -12.89350986,
+    "slope": 3.048912048
+  },
+  {
+    "commonName": "Catshark (Leopard)",
+    "scientificName": "Poroderma pantherinum",
+    "lengthType": "Total length",
+    "smithNo": "11.15",
+    "logIntercept": -11.73612022,
+    "slope": 2.920005083
+  },
+  {
+    "commonName": "Catshark (Striped)",
+    "scientificName": "Poroderma africanum",
+    "lengthType": "Total length",
+    "smithNo": "11.13",
+    "logIntercept": -11.90907001,
+    "slope": 2.958318949
+  },
+  {
+    "commonName": "Catshark (Tiger)",
+    "scientificName": "Halaelurus natalensis",
+    "lengthType": "Total length",
+    "smithNo": "11.7",
+    "logIntercept": -12.89350986,
+    "slope": 3.048912048
+  },
+  {
+    "commonName": "Dogfish (Spiny)",
+    "scientificName": "Squalus acanthias",
+    "lengthType": "Total length",
+    "smithNo": "5.24",
+    "logIntercept": -13.43025495,
+    "slope": 3.219990589
+  },
+  {
+    "commonName": "Shark (Blackfin Reef)",
+    "scientificName": "Carcharhinus melanopterus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.13",
+    "logIntercept": -11.34669971,
+    "slope": 3.049860954
+  },
+  {
+    "commonName": "Shark (Blackspot)",
+    "scientificName": "Carcharhinus sealei",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.16",
+    "logIntercept": -12.17357651,
+    "slope": 3.233331686
+  },
+  {
+    "commonName": "Shark (Blacktip) (F)",
+    "scientificName": "Carcharhinus limbatus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.10",
+    "logIntercept": -11.43505001,
+    "slope": 3.079823017
+  },
+  {
+    "commonName": "Shark (Blacktip) (M)",
+    "scientificName": "Carcharhinus limbatus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.10",
+    "logIntercept": -11.34669971,
+    "slope": 3.049860954
+  },
+  {
+    "commonName": "Shark (Blue) (F)",
+    "scientificName": "Prionace glauca",
+    "lengthType": "Total length",
+    "smithNo": "9.32",
+    "logIntercept": -13.80794411,
+    "slope": 3.41
+  },
+  {
+    "commonName": "Shark (Blue) (M)",
+    "scientificName": "Prionace glauca",
+    "lengthType": "Total length",
+    "smithNo": "9.32",
+    "logIntercept": -13.0849664,
+    "slope": 3.2
+  },
+  {
+    "commonName": "Shark (Bull) (F)",
+    "scientificName": "Carcharhinus leucas",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.9",
+    "logIntercept": -10.76966953,
+    "slope": 2.979747057
+  },
+  {
+    "commonName": "Shark (Bull) (M)",
+    "scientificName": "Carcharhinus leucas",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.9",
+    "logIntercept": -10.54288006,
+    "slope": 2.929411888
+  },
+  {
+    "commonName": "Shark (Copper / Bronze) (F)",
+    "scientificName": "Carcharhinus brachyurus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.5",
+    "logIntercept": -11.91701984,
+    "slope": 3.140988111
+  },
+  {
+    "commonName": "Shark (Copper / Bronze) (M)",
+    "scientificName": "Carcharhinus brachyurus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.5",
+    "logIntercept": -11.80140018,
+    "slope": 3.109893084
+  },
+  {
+    "commonName": "Shark (Cow) (Sevengill)",
+    "scientificName": "Notorynchus cepedianus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "2.4",
+    "logIntercept": -12.62215996,
+    "slope": 3.280111074
+  },
+  {
+    "commonName": "Shark (Dusky)",
+    "scientificName": "Carcharhinus obscurus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.14",
+    "logIntercept": -11.3801071,
+    "slope": 3.0499923
+  },
+  {
+    "commonName": "Shark (Flapnose Hound)",
+    "scientificName": "Scylliogaleus quecketti",
+    "lengthType": "Total length",
+    "smithNo": "9.34",
+    "logIntercept": -12.66267014,
+    "slope": 3.063977003
+  },
+  {
+    "commonName": "Shark (Great Hammerhead)",
+    "scientificName": "Sphyrna mokarran",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "13.2",
+    "logIntercept": -10.97926044,
+    "slope": 2.944046974
+  },
+  {
+    "commonName": "Shark (Great White)",
+    "scientificName": "Carcharodon carcharias",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "14.1",
+    "logIntercept": -10.75166035,
+    "slope": 2.94391489
+  },
+  {
+    "commonName": "Shark (Hardnosed Smooth-hound)",
+    "scientificName": "Mustelus mosis",
+    "lengthType": "Total length",
+    "smithNo": "9.26",
+    "logIntercept": -14.8193903,
+    "slope": 3.5015769
+  },
+  {
+    "commonName": "Shark (Hound) (Smooth) (F)",
+    "scientificName": "Mustelus mustelus",
+    "lengthType": "Total length",
+    "smithNo": "9.27",
+    "logIntercept": -14.8193903,
+    "slope": 3.5015769
+  },
+  {
+    "commonName": "Shark (Hound) (Smooth) (M)",
+    "scientificName": "Mustelus mustelus",
+    "lengthType": "Total length",
+    "smithNo": "9.27",
+    "logIntercept": -13.38910007,
+    "slope": 3.189629078
+  },
+  {
+    "commonName": "Shark (Java)",
+    "scientificName": "Carcharhinus amboinensis",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.4",
+    "logIntercept": -10.43056965,
+    "slope": 2.930546999
+  },
+  {
+    "commonName": "Shark (Lemon)",
+    "scientificName": "Negaprion acutidens",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.29",
+    "logIntercept": -10.9772907,
+    "slope": 3.003881802
+  },
+  {
+    "commonName": "Shark (Milk) (F)",
+    "scientificName": "Rhizoprionodon acutus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.33",
+    "logIntercept": -11.72862571,
+    "slope": 3.056938858
+  },
+  {
+    "commonName": "Shark (Milk) (M)",
+    "scientificName": "Rhizoprionodon acutus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.33",
+    "logIntercept": -11.72862571,
+    "slope": 3.056938858
+  },
+  {
+    "commonName": "Shark (Sandbar) (F)",
+    "scientificName": "Carcharhinus plumbeus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.15",
+    "logIntercept": -11.77966022,
+    "slope": 3.170077085
+  },
+  {
+    "commonName": "Shark (Sandbar) (M)",
+    "scientificName": "Carcharhinus plumbeus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.15",
+    "logIntercept": -11.48738956,
+    "slope": 3.090497971
+  },
+  {
+    "commonName": "Shark (Scalloped Hammerhead) (F)",
+    "scientificName": "Sphyrna lewini",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "13.1",
+    "logIntercept": -11.5104599,
+    "slope": 3.069519997
+  },
+  {
+    "commonName": "Shark (Scalloped Hammerhead) (M)",
+    "scientificName": "Sphyrna lewini",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "13.1",
+    "logIntercept": -11.10394955,
+    "slope": 2.979325056
+  },
+  {
+    "commonName": "Shark (Shortfin Mako)",
+    "scientificName": "Isurus oxyrinchus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "14.2",
+    "logIntercept": -11.12766306,
+    "slope": 2.98
+  },
+  {
+    "commonName": "Shark (Smooth Hammerhead) (F)",
+    "scientificName": "Sphyrna zygaena",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "13.3",
+    "logIntercept": -11.61642856,
+    "slope": 3.085366633
+  },
+  {
+    "commonName": "Shark (Smooth Hammerhead) (M)",
+    "scientificName": "Sphyrna zygaena",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "13.3",
+    "logIntercept": -11.21096346,
+    "slope": 2.995366633
+  },
+  {
+    "commonName": "Shark (Soupfin)",
+    "scientificName": "Galeorhinus galeus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.20",
+    "logIntercept": -8.310648918,
+    "slope": 2.319703102
+  },
+  {
+    "commonName": "Shark (Spinner) (F)",
+    "scientificName": "Carcharhinus brevipinna",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.6",
+    "logIntercept": -11.83144205,
+    "slope": 3.1627
+  },
+  {
+    "commonName": "Shark (Spinner) (M)",
+    "scientificName": "Carcharhinus brevipinna",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.6",
+    "logIntercept": -11.64463785,
+    "slope": 3.0977
+  },
+  {
+    "commonName": "Shark (Spotted Gully)",
+    "scientificName": "Triakis megalopterus",
+    "lengthType": "Total length",
+    "smithNo": "9.36",
+    "logIntercept": -14.33193016,
+    "slope": 3.430449963
+  },
+  {
+    "commonName": "Shark (Spotted Ragged-tooth) (F)",
+    "scientificName": "Carcharias taurus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "19.1",
+    "logIntercept": -12.01518538,
+    "slope": 3.217362935
+  },
+  {
+    "commonName": "Shark (Spotted Ragged-tooth) (M)",
+    "scientificName": "Carcharias taurus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "19.1",
+    "logIntercept": -11.41074324,
+    "slope": 3.078114933
+  },
+  {
+    "commonName": "Shark (Tiger) (F)",
+    "scientificName": "Galeocerdo cuvier",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.19",
+    "logIntercept": -11.86960041,
+    "slope": 3.124
+  },
+  {
+    "commonName": "Shark (Tiger) (M)",
+    "scientificName": "Galeocerdo cuvier",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "9.19",
+    "logIntercept": -12.02375109,
+    "slope": 3.141
+  },
+  {
+    "commonName": "Shark (Whitespotted Smooth-hound)",
+    "scientificName": "Mustelus palumbes",
+    "lengthType": "Total length",
+    "smithNo": "9.28",
+    "logIntercept": -14.8193903,
+    "slope": 3.5015769
+  },
+  {
+    "commonName": "Shyshark (Brown)",
+    "scientificName": "Haploblepharus fuscus",
+    "lengthType": "Total length",
+    "smithNo": "11.9",
+    "logIntercept": -12.68410845,
+    "slope": 3.0172
+  },
+  {
+    "commonName": "Thresher (Bigeye)",
+    "scientificName": "Alopias superciliosus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "16.2",
+    "logIntercept": -10.03355026,
+    "slope": 2.856935024
+  },
+  {
+    "commonName": "Thresher (Thintail)",
+    "scientificName": "Alopias vulpinus",
+    "lengthType": "Pre-caudal length",
+    "smithNo": "16.3",
+    "logIntercept": -10.03355026,
+    "slope": 2.856935024
+  },
+  {
+    "commonName": "Guitarfish (Bluntnose)",
+    "scientificName": "Rhinobatos blochii",
+    "lengthType": "Total length",
+    "smithNo": "27.3",
+    "logIntercept": -12.02099466,
+    "slope": 2.869810939
+  },
+  {
+    "commonName": "Guitarfish (Giant)",
+    "scientificName": "Rhynchobatus djiddensis",
+    "lengthType": "Total length",
+    "smithNo": "27.7",
+    "logIntercept": -12.15007973,
+    "slope": 3.011601925
+  },
+  {
+    "commonName": "Guitarfish (Greyspot)",
+    "scientificName": "Rhinobatos leucospilus",
+    "lengthType": "Total length",
+    "smithNo": "27.5",
+    "logIntercept": -10.72929955,
+    "slope": 2.561811924
+  },
+  {
+    "commonName": "Guitarfish (Lesser)",
+    "scientificName": "Rhinobatos annulatus",
+    "lengthType": "Total length",
+    "smithNo": "27.2",
+    "logIntercept": -13.31268978,
+    "slope": 3.177809954
+  },
+  {
+    "commonName": "Ray (Blackspotted Electric)",
+    "scientificName": "Torpedo fuscomaculata",
+    "lengthType": "Disc width",
+    "smithNo": "23.1",
+    "logIntercept": -9.804895401,
+    "slope": 2.807568073
+  },
+  {
+    "commonName": "Ray (Bull) / Duckbill",
+    "scientificName": "Pteromylaeus bovinus",
+    "lengthType": "Disc width",
+    "smithNo": "28.3",
+    "logIntercept": -9.487839699,
+    "slope": 2.670084953
+  },
+  {
+    "commonName": "Ray (Butterfly / Diamond)",
+    "scientificName": "Gymnura natalensis",
+    "lengthType": "Disc width",
+    "smithNo": "30.7",
+    "logIntercept": -11.79977989,
+    "slope": 3.03984499
+  },
+  {
+    "commonName": "Ray (Eagle)",
+    "scientificName": "Myliobatus aquila",
+    "lengthType": "Disc width",
+    "smithNo": "28.2",
+    "logIntercept": -11.16779041,
+    "slope": 3.059699059
+  },
+  {
+    "commonName": "Ray (Flapnose)",
+    "scientificName": "Rhinoptera javanica",
+    "lengthType": "Disc width",
+    "smithNo": "28.4",
+    "logIntercept": -11.59589005,
+    "slope": 3.138524055
+  },
+  {
+    "commonName": "Ray (Marbled Electric)",
+    "scientificName": "Torpedo sinuspersici",
+    "lengthType": "Disc width",
+    "smithNo": "23.3",
+    "logIntercept": -9.804895401,
+    "slope": 2.807568073
+  },
+  {
+    "commonName": "Ray (Ribbontail) (Round)",
+    "scientificName": "Taeniura melanospilos",
+    "lengthType": "Disc width",
+    "smithNo": "30.14",
+    "logIntercept": -9.153886795,
+    "slope": 2.712804079
+  },
+  {
+    "commonName": "Ray (Spotted Eagle)",
+    "scientificName": "Aetobatus narinari",
+    "lengthType": "Disc width",
+    "smithNo": "28.1",
+    "logIntercept": -12.04735391,
+    "slope": 3.129998498
+  },
+  {
+    "commonName": "Ribbontail (Bluespotted)",
+    "scientificName": "Taeniura lymma",
+    "lengthType": "Disc width",
+    "smithNo": "30.13",
+    "logIntercept": -9.153886795,
+    "slope": 2.712804079
+  },
+  {
+    "commonName": "Skate (Spearnose)",
+    "scientificName": "Raja alba",
+    "lengthType": "Disc width",
+    "smithNo": "25.6",
+    "logIntercept": -12.37351036,
+    "slope": 3.160566092
+  },
+  {
+    "commonName": "Skate (Thornback)",
+    "scientificName": "Raja clavata",
+    "lengthType": "Disc width",
+    "smithNo": "25.8",
+    "logIntercept": -10.88177013,
+    "slope": 3.004992962
+  },
+  {
+    "commonName": "Stingray (Blue) (F)",
+    "scientificName": "Dasyatis chrysonota chrysonota",
+    "lengthType": "Disc width",
+    "smithNo": "30.3",
+    "logIntercept": -11.04084969,
+    "slope": 3.251389027
+  },
+  {
+    "commonName": "Stingray (Blue) (M)",
+    "scientificName": "Dasyatis chrysonota chrysonota",
+    "lengthType": "Disc width",
+    "smithNo": "30.3",
+    "logIntercept": -11.08378029,
+    "slope": 3.185832024
+  },
+  {
+    "commonName": "Stingray (Brown Sharpnose)",
+    "scientificName": "Himantura gerrardi",
+    "lengthType": "Disc width",
+    "smithNo": "30.9",
+    "logIntercept": -9.317486763,
+    "slope": 2.750916004
+  },
+  {
+    "commonName": "Stingray (Devil)",
+    "scientificName": "Himantura draco",
+    "lengthType": "Disc width",
+    "smithNo": "30.8",
+    "logIntercept": -9.235686779,
+    "slope": 2.731860042
+  },
+  {
+    "commonName": "Stingray (Honeycomb)",
+    "scientificName": "Himantura uarnak",
+    "lengthType": "Disc width",
+    "smithNo": "30.10",
+    "logIntercept": -9.153886795,
+    "slope": 2.712804079
+  },
+  {
+    "commonName": "Stingray (Roundnose)",
+    "scientificName": "Himantura sp.",
+    "lengthType": "Disc width",
+    "smithNo": "30.11",
+    "logIntercept": -9.235686779,
+    "slope": 2.731860042
+  },
+  {
+    "commonName": "Stingray (Short-tail)",
+    "scientificName": "Dasyatis brevicaudata",
+    "lengthType": "Disc width",
+    "smithNo": "30.1",
+    "logIntercept": -9.654700279,
+    "slope": 2.870229959
+  },
+  {
+    "commonName": "Stingray (Thorntail)",
+    "scientificName": "Dasyatis thetidis",
+    "lengthType": "Disc width",
+    "smithNo": "30.4",
+    "logIntercept": -10.80140972,
+    "slope": 2.99932909
+  },
+  {
+    "commonName": "Albacore",
+    "scientificName": "Thunnus alalunga",
+    "lengthType": "Fork length",
+    "smithNo": "249.14",
+    "logIntercept": -11.19678266,
+    "slope": 3.097296052
+  },
+  {
+    "commonName": "Baardman",
+    "scientificName": "Umbrina robinsoni",
+    "lengthType": "Total length",
+    "smithNo": "199.8",
+    "logIntercept": -11.4194509,
+    "slope": 3.0204
+  },
+  {
+    "commonName": "Baardman (Slender)",
+    "scientificName": "Umbrina ronchus",
+    "lengthType": "Total length",
+    "smithNo": "199.9",
+    "logIntercept": -11.66965008,
+    "slope": 3.14411807
+  },
+  {
+    "commonName": "Barracuda (Great)",
+    "scientificName": "Sphyraena barracuda",
+    "lengthType": "Fork length",
+    "smithNo": "224.3",
+    "logIntercept": -11.69070725,
+    "slope": 2.913470549
+  },
+  {
+    "commonName": "Barracuda (Pickhandle)",
+    "scientificName": "Sphyraena jello",
+    "lengthType": "Fork length",
+    "smithNo": "224.7",
+    "logIntercept": -11.17506027,
+    "slope": 2.809709072
+  },
+  {
+    "commonName": "Barracuda (Sawtooth)",
+    "scientificName": "Sphyraena putnamae",
+    "lengthType": "Fork length",
+    "smithNo": "224.9",
+    "logIntercept": -11.7953777,
+    "slope": 2.930708535
+  },
+  {
+    "commonName": "Barracuda (Blackfin)",
+    "scientificName": "Sphyraena qenie",
+    "lengthType": "Fork length",
+    "smithNo": "224.10",
+    "logIntercept": -12.10168377,
+    "slope": 2.999994039
+  },
+  {
+    "commonName": "Bass (Brindle)",
+    "scientificName": "Epinephelus lanceolatus",
+    "lengthType": "Total length",
+    "smithNo": "166.45",
+    "logIntercept": -10.96440029,
+    "slope": 2.999917984
+  },
+  {
+    "commonName": "Bass (Potato)",
+    "scientificName": "Epinephelus tukula",
+    "lengthType": "Total length",
+    "smithNo": "166.66",
+    "logIntercept": -9.15223217,
+    "slope": 2.560028076
+  },
+  {
+    "commonName": "Blaasop (Blackback)",
+    "scientificName": "Lagocephalus guentheri",
+    "lengthType": "Total length",
+    "smithNo": "268.19",
+    "logIntercept": -10.82821893,
+    "slope": 2.934397784
+  },
+  {
+    "commonName": "Blaasop (Silverstripe)",
+    "scientificName": "Lagocephalus sceleratus",
+    "lengthType": "Fork length",
+    "smithNo": "268.23",
+    "logIntercept": -10.91246898,
+    "slope": 2.923995568
+  },
+  {
+    "commonName": "Blaasop (Smooth)",
+    "scientificName": "Lagocephalus inermis",
+    "lengthType": "Total length",
+    "smithNo": "268.20",
+    "logIntercept": -10.74396888,
+    "slope": 2.9448
+  },
+  {
+    "commonName": "Blaasop (Star)",
+    "scientificName": "Arothron stellatus",
+    "lengthType": "Total length",
+    "smithNo": "268.8",
+    "logIntercept": -9.29916161,
+    "slope": 2.67238793
+  },
+  {
+    "commonName": "Blaasop (Whitespotted)",
+    "scientificName": "Arothron hispidus",
+    "lengthType": "Total length",
+    "smithNo": "268.2",
+    "logIntercept": -9.772453721,
+    "slope": 2.800998837
+  },
+  {
+    "commonName": "Blacktail",
+    "scientificName": "Diplodus sargus capensis",
+    "lengthType": "Fork length",
+    "smithNo": "183.17",
+    "logIntercept": -11.25680542,
+    "slope": 3.242000103
+  },
+  {
+    "commonName": "Bludger",
+    "scientificName": "Carangoides gymnostethus",
+    "lengthType": "Fork length",
+    "smithNo": "210.12",
+    "logIntercept": -9.975300789,
+    "slope": 2.745455027
+  },
+  {
+    "commonName": "Blueskin",
+    "scientificName": "Polysteganus coeruleopunctatus",
+    "lengthType": "Total length",
+    "smithNo": "183.29",
+    "logIntercept": -11.12160969,
+    "slope": 3.016948938
+  },
+  {
+    "commonName": "Bonefish",
+    "scientificName": "Albula vulpes",
+    "lengthType": "Fork length",
+    "smithNo": "38.1",
+    "logIntercept": -10.6660099,
+    "slope": 2.889776945
+  },
+  {
+    "commonName": "Bonito (Atlantic)",
+    "scientificName": "Sarda sarda",
+    "lengthType": "Fork length",
+    "smithNo": "249.10",
+    "logIntercept": -11.58205986,
+    "slope": 3.104504108
+  },
+  {
+    "commonName": "Bonito (Striped)",
+    "scientificName": "Sarda orientalis",
+    "lengthType": "Fork length",
+    "smithNo": "249.9",
+    "logIntercept": -10.73902988,
+    "slope": 2.870177031
+  },
+  {
+    "commonName": "Bream (Bronze)",
+    "scientificName": "Pachymetopon grande",
+    "lengthType": "Fork length",
+    "smithNo": "183.24",
+    "logIntercept": -10.61913013,
+    "slope": 3.046120882
+  },
+  {
+    "commonName": "Bream (River) / Perch",
+    "scientificName": "Acanthopagrus berda",
+    "lengthType": "Fork length",
+    "smithNo": "183.1",
+    "logIntercept": -10.64582498,
+    "slope": 3.022
+  },
+  {
+    "commonName": "Bream (Stone)",
+    "scientificName": "Neoscorpis lithophilus",
+    "lengthType": "Fork length",
+    "smithNo": "190.1",
+    "logIntercept": -10.99118996,
+    "slope": 3.079790115
+  },
+  {
+    "commonName": "Bream (Twobar)",
+    "scientificName": "Acanthopagrus bifasciatus",
+    "lengthType": "Fork length",
+    "smithNo": "183.2",
+    "logIntercept": -10.15195066,
+    "slope": 2.910000367
+  },
+  {
+    "commonName": "Carpenter",
+    "scientificName": "Argyrozona argyrozona",
+    "lengthType": "Fork length",
+    "smithNo": "183.5",
+    "logIntercept": -10.99480285,
+    "slope": 2.924005836
+  },
+  {
+    "commonName": "Catfish (Eel)",
+    "scientificName": "Plotosus nkunga",
+    "lengthType": "Total length",
+    "smithNo": "60.2",
+    "logIntercept": -11.60569,
+    "slope": 2.939677
+  },
+  {
+    "commonName": "Catfish (Sea) (Black)",
+    "scientificName": "Galeichthys ater",
+    "lengthType": "Fork length",
+    "smithNo": "59.2",
+    "logIntercept": -11.09877968,
+    "slope": 3.040005922
+  },
+  {
+    "commonName": "Catfish (White Sea)",
+    "scientificName": "Galeichthys feliceps",
+    "lengthType": "Fork length",
+    "smithNo": "59.3",
+    "logIntercept": -11.37549019,
+    "slope": 3.080156088
+  },
+  {
+    "commonName": "Cavebass",
+    "scientificName": "Dinoperca petersi",
+    "lengthType": "Total length",
+    "smithNo": "180.1",
+    "logIntercept": -10.60066032,
+    "slope": 2.960002899
+  },
+  {
+    "commonName": "Chub (Blue)",
+    "scientificName": "Kyphosus cinerascens",
+    "lengthType": "Fork length",
+    "smithNo": "189.2",
+    "logIntercept": -10.88860035,
+    "slope": 3.044718981
+  },
+  {
+    "commonName": "Chub (Brassy)",
+    "scientificName": "Kyphosus vaigiensis",
+    "lengthType": "Fork length",
+    "smithNo": "189.3",
+    "logIntercept": -10.81772995,
+    "slope": 3.036582947
+  },
+  {
+    "commonName": "Chub (Grey)",
+    "scientificName": "Kyphosus bigibbus",
+    "lengthType": "Fork length",
+    "smithNo": "189.1",
+    "logIntercept": -10.4987402,
+    "slope": 2.85947299
+  },
+  {
+    "commonName": "Concertina fish",
+    "scientificName": "Drepane longimanus",
+    "lengthType": "Total length",
+    "smithNo": "195.1",
+    "logIntercept": -10.95837975,
+    "slope": 3.175065041
+  },
+  {
+    "commonName": "Cutlass fish",
+    "scientificName": "Trichiurus lepturus",
+    "lengthType": "Total length",
+    "smithNo": "248.6",
+    "logIntercept": -15.33028071,
+    "slope": 3.290133247
+  },
+  {
+    "commonName": "Dageraad",
+    "scientificName": "Chrysoblephus cristiceps",
+    "lengthType": "Fork length",
+    "smithNo": "183.9",
+    "logIntercept": -10.89997959,
+    "slope": 3.150401115
+  },
+  {
+    "commonName": "Dane",
+    "scientificName": "Porcostoma dentata",
+    "lengthType": "Fork length",
+    "smithNo": "183.33",
+    "logIntercept": -10.84992981,
+    "slope": 2.984142065
+  },
+  {
+    "commonName": "Dorado",
+    "scientificName": "Coryphaena hippurus",
+    "lengthType": "Fork length",
+    "smithNo": "211.2",
+    "logIntercept": -10.015494,
+    "slope": 2.60199103
+  },
+  {
+    "commonName": "Eel (Blackedged)",
+    "scientificName": "Conger cinereus cinereus",
+    "lengthType": "Total length",
+    "smithNo": "40.7",
+    "logIntercept": -14.34276962,
+    "slope": 3.271014929
+  },
+  {
+    "commonName": "Eel (Conger)",
+    "scientificName": "Conger wilsoni",
+    "lengthType": "Total length",
+    "smithNo": "40.8",
+    "logIntercept": -14.34276962,
+    "slope": 3.271014929
+  },
+  {
+    "commonName": "Eel (Crocodile Snake)",
+    "scientificName": "Brachysomophis crocodilinus",
+    "lengthType": "Total length",
+    "smithNo": "42.3",
+    "logIntercept": -13.11616039,
+    "slope": 2.998719931
+  },
+  {
+    "commonName": "Eel (Leopard) (Moray)",
+    "scientificName": "Gymnothorax undulatus",
+    "lengthType": "Total length",
+    "smithNo": "41.24",
+    "logIntercept": -13.32042781,
+    "slope": 2.999919707
+  },
+  {
+    "commonName": "Eel (Pike) (Conger)",
+    "scientificName": "Muraenesox bagio",
+    "lengthType": "Total length",
+    "smithNo": "45.1",
+    "logIntercept": -12.85744953,
+    "slope": 2.82366991
+  },
+  {
+    "commonName": "Eel (Slender Giant) (Moray)",
+    "scientificName": "Thyrsoidea macrura",
+    "lengthType": "Total length",
+    "smithNo": "41.28",
+    "logIntercept": -11.43947983,
+    "slope": 2.325802088
+  },
+  {
+    "commonName": "Eel (Yellow Edged Moray)",
+    "scientificName": "Gymnothorax flavimarginatus",
+    "lengthType": "Total length",
+    "smithNo": "41.12",
+    "logIntercept": -14.75876045,
+    "slope": 3.355549097
+  },
+  {
+    "commonName": "Elephant Fish / St Joseph",
+    "scientificName": "Callorhinchus capensis",
+    "lengthType": "Total length",
+    "smithNo": "34.1",
+    "logIntercept": -11.73982607,
+    "slope": 3
+  },
+  {
+    "commonName": "Elf / Shad",
+    "scientificName": "Pomatomus saltatrix",
+    "lengthType": "Fork length",
+    "smithNo": "178.1",
+    "logIntercept": -11.15363979,
+    "slope": 2.980024099
+  },
+  {
+    "commonName": "Emperor (Blue)",
+    "scientificName": "Lethrinus nebulosus",
+    "lengthType": "Fork length",
+    "smithNo": "185.13",
+    "logIntercept": -10.58632618,
+    "slope": 3.009999058
+  },
+  {
+    "commonName": "Emperor (Cutthroat)",
+    "scientificName": "Lethrinus mahsena",
+    "lengthType": "Fork length",
+    "smithNo": "185.11",
+    "logIntercept": -11.04290266,
+    "slope": 3.076994578
+  },
+  {
+    "commonName": "Emperor (Yellowfin)",
+    "scientificName": "Lethrinus crocineus",
+    "lengthType": "Total length",
+    "smithNo": "185.5",
+    "logIntercept": -10.74213982,
+    "slope": 2.950612068
+  },
+  {
+    "commonName": "Englishman",
+    "scientificName": "Chrysoblephus anglicus",
+    "lengthType": "Fork length",
+    "smithNo": "183.8",
+    "logIntercept": -9.570588112,
+    "slope": 2.740123034
+  },
+  {
+    "commonName": "Fingerfin (Natal)",
+    "scientificName": "Chirodactylus jessicalenorum",
+    "lengthType": "Fork length",
+    "smithNo": "215.5",
+    "logIntercept": -11.06046963,
+    "slope": 2.977108002
+  },
+  {
+    "commonName": "Fingerfin (Twotone)",
+    "scientificName": "Chirodactylus brachydactylus",
+    "lengthType": "Fork length",
+    "smithNo": "215.3",
+    "logIntercept": -11.06046963,
+    "slope": 2.977108002
+  },
+  {
+    "commonName": "Flathead (Bartailed)",
+    "scientificName": "Platycephalus indicus",
+    "lengthType": "Total length",
+    "smithNo": "155.6",
+    "logIntercept": -9.529065132,
+    "slope": 2.383610964
+  },
+  {
+    "commonName": "Flounder (Largetooth)",
+    "scientificName": "Pseudorhombus arsius",
+    "lengthType": "Total length",
+    "smithNo": "259.17",
+    "logIntercept": -11.90448041,
+    "slope": 3.075998458
+  },
+  {
+    "commonName": "Flounder (Measles)",
+    "scientificName": "Paralichthodes algoensis",
+    "lengthType": "Total length",
+    "smithNo": "260.2",
+    "logIntercept": -11.63916969,
+    "slope": 3.077567101
+  },
+  {
+    "commonName": "Fransmadam",
+    "scientificName": "Boopsoidea inornata",
+    "lengthType": "Fork length",
+    "smithNo": "183.6",
+    "logIntercept": -10.84992981,
+    "slope": 2.984142065
+  },
+  {
+    "commonName": "Fusilier (Yellowtail)",
+    "scientificName": "Paracaesio xanthura",
+    "lengthType": "Fork length",
+    "smithNo": "181.21",
+    "logIntercept": -9.466004372,
+    "slope": 2.578635931
+  },
+  {
+    "commonName": "Galjoen",
+    "scientificName": "Dichistius capensis",
+    "lengthType": "Total length",
+    "smithNo": "187.1",
+    "logIntercept": -11.33865406,
+    "slope": 3.1200013
+  },
+  {
+    "commonName": "Galjoen (Banded)",
+    "scientificName": "Dichistius multifasciatus",
+    "lengthType": "Fork length",
+    "smithNo": "187.2",
+    "logIntercept": -10.98548985,
+    "slope": 3.153011084
+  },
+  {
+    "commonName": "Geelbek",
+    "scientificName": "Atractoscion aequidens",
+    "lengthType": "Fork length",
+    "smithNo": "199.3",
+    "logIntercept": -11.66189169,
+    "slope": 3.010003379
+  },
+  {
+    "commonName": "Goatfish (Blacksaddle)",
+    "scientificName": "Parupeneus rubescens",
+    "lengthType": "Fork length",
+    "smithNo": "196.10",
+    "logIntercept": -11.11012884,
+    "slope": 3.019166473
+  },
+  {
+    "commonName": "Goatfish (Indian)",
+    "scientificName": "Parupeneus indicus",
+    "lengthType": "Fork length",
+    "smithNo": "196.7",
+    "logIntercept": -11.09665966,
+    "slope": 3.087508917
+  },
+  {
+    "commonName": "Greenspot kingfish",
+    "scientificName": "Caranx sp.",
+    "lengthType": "Fork length",
+    "smithNo": "N/A",
+    "logIntercept": -9.286496056,
+    "slope": 2.573
+  },
+  {
+    "commonName": "Grunter (Cock)",
+    "scientificName": "Pomadasys multimaculatum",
+    "lengthType": "Fork length",
+    "smithNo": "179.16",
+    "logIntercept": -10.24875749,
+    "slope": 2.749991417
+  },
+  {
+    "commonName": "Grunter (Grey)",
+    "scientificName": "Pomadasys furcatus",
+    "lengthType": "Fork length",
+    "smithNo": "179.11",
+    "logIntercept": -10.41281986,
+    "slope": 2.839692116
+  },
+  {
+    "commonName": "Grunter (Javelin)",
+    "scientificName": "Pomadasys kaakan",
+    "lengthType": "Fork length",
+    "smithNo": "179.13",
+    "logIntercept": -10.29008007,
+    "slope": 2.712771893
+  },
+  {
+    "commonName": "Grunter (Saddle)",
+    "scientificName": "Pomadasys maculatus",
+    "lengthType": "Fork length",
+    "smithNo": "179.15",
+    "logIntercept": -10.75699043,
+    "slope": 2.899035931
+  },
+  {
+    "commonName": "Grunter (Spotted)",
+    "scientificName": "Pomadasys commersonnii",
+    "lengthType": "Fork length",
+    "smithNo": "179.10",
+    "logIntercept": -11.12304584,
+    "slope": 2.970594241
+  },
+  {
+    "commonName": "Grunter (Striped)",
+    "scientificName": "Pomadasys striatus",
+    "lengthType": "Fork length",
+    "smithNo": "179.18",
+    "logIntercept": -10.51967369,
+    "slope": 2.8609
+  },
+  {
+    "commonName": "Gurnard (Cape)",
+    "scientificName": "Chelidonichthys capensis",
+    "lengthType": "Fork length",
+    "smithNo": "157.1",
+    "logIntercept": -11.34669018,
+    "slope": 2.998744011
+  },
+  {
+    "commonName": "Hogfish (Goldsaddle)",
+    "scientificName": "Bodianus perditio",
+    "lengthType": "Fork length",
+    "smithNo": "220.10",
+    "logIntercept": -11.34317988,
+    "slope": 3.148749421
+  },
+  {
+    "commonName": "Hottentot",
+    "scientificName": "Pachymetopon blochii",
+    "lengthType": "Fork length",
+    "smithNo": "183.23",
+    "logIntercept": -10.46722984,
+    "slope": 2.966594934
+  },
+  {
+    "commonName": "Hottentot (Blue)",
+    "scientificName": "Pachymetopon aeneum",
+    "lengthType": "Fork length",
+    "smithNo": "183.22",
+    "logIntercept": -11.16986078,
+    "slope": 3.149004285
+  },
+  {
+    "commonName": "Janbruin",
+    "scientificName": "Gymnocrotaphus curvidens",
+    "lengthType": "Fork length",
+    "smithNo": "183.18",
+    "logIntercept": -10.84992981,
+    "slope": 2.984142065
+  },
+  {
+    "commonName": "Jobfish (Green)",
+    "scientificName": "Aprion virescens",
+    "lengthType": "Fork length",
+    "smithNo": "181.3",
+    "logIntercept": -10.43450634,
+    "slope": 2.759998047
+  },
+  {
+    "commonName": "Kingfish (Bigeye)",
+    "scientificName": "Caranx sexfasciatus",
+    "lengthType": "Fork length",
+    "smithNo": "210.22",
+    "logIntercept": -9.286496056,
+    "slope": 2.573
+  },
+  {
+    "commonName": "Kingfish (Blacktip)",
+    "scientificName": "Caranx sem",
+    "lengthType": "Fork length",
+    "smithNo": "210.21",
+    "logIntercept": -10.49559021,
+    "slope": 2.856364965
+  },
+  {
+    "commonName": "Kingfish (Blue)",
+    "scientificName": "Carangoides ferdau",
+    "lengthType": "Fork length",
+    "smithNo": "210.18",
+    "logIntercept": -10.20810032,
+    "slope": 2.850805044
+  },
+  {
+    "commonName": "Kingfish (Bluefin)",
+    "scientificName": "Caranx melampygus",
+    "lengthType": "Fork length",
+    "smithNo": "210.19",
+    "logIntercept": -10.7678299,
+    "slope": 2.941328049
+  },
+  {
+    "commonName": "Kingfish (Brassy)",
+    "scientificName": "Caranx papuensis",
+    "lengthType": "Fork length",
+    "smithNo": "210.20",
+    "logIntercept": -10.60321999,
+    "slope": 2.910526991
+  },
+  {
+    "commonName": "Kingfish (Bumpnose)",
+    "scientificName": "Carangoides hedlandensis",
+    "lengthType": "Fork length",
+    "smithNo": "210.13",
+    "logIntercept": -10.17663956,
+    "slope": 2.864478111
+  },
+  {
+    "commonName": "Kingfish (Giant)",
+    "scientificName": "Caranx ignobilis",
+    "lengthType": "Fork length",
+    "smithNo": "210.17",
+    "logIntercept": -10.7853921,
+    "slope": 2.987003158
+  },
+  {
+    "commonName": "Kingfish (Golden)",
+    "scientificName": "Gnathanodon speciosus",
+    "lengthType": "Fork length",
+    "smithNo": "210.32",
+    "logIntercept": -10.82273006,
+    "slope": 2.994575024
+  },
+  {
+    "commonName": "Kingfish (Longfin)",
+    "scientificName": "Carangoides armatus",
+    "lengthType": "Fork length",
+    "smithNo": "210.5",
+    "logIntercept": -11.37750619,
+    "slope": 3.126157
+  },
+  {
+    "commonName": "Kingfish (Malabar)",
+    "scientificName": "Carangoides malabaricus",
+    "lengthType": "Fork length",
+    "smithNo": "210.14",
+    "logIntercept": -10.48466698,
+    "slope": 2.9200343
+  },
+  {
+    "commonName": "Kingfish (Tille)",
+    "scientificName": "Caranx tille",
+    "lengthType": "Fork length",
+    "smithNo": "210.23",
+    "logIntercept": -11.64500046,
+    "slope": 3.163870096
+  },
+  {
+    "commonName": "Kingfish (White)",
+    "scientificName": "Pseudocaranx dentex",
+    "lengthType": "Fork length",
+    "smithNo": "210.37",
+    "logIntercept": -11.21354961,
+    "slope": 3.064146996
+  },
+  {
+    "commonName": "Kingfish (Yellowspotted)",
+    "scientificName": "Carangoides fulvoguttatus",
+    "lengthType": "Fork length",
+    "smithNo": "210.11",
+    "logIntercept": -9.984062195,
+    "slope": 2.704864979
+  },
+  {
+    "commonName": "Kingklip",
+    "scientificName": "Genypterus capensis",
+    "lengthType": "Total length",
+    "smithNo": "96.9",
+    "logIntercept": -13.59237884,
+    "slope": 3.330002395
+  },
+  {
+    "commonName": "Klipvis",
+    "scientificName": "Clinus robustus",
+    "lengthType": "Total length",
+    "smithNo": "237.19",
+    "logIntercept": -10.97628975,
+    "slope": 3.035970926
+  },
+  {
+    "commonName": "Knifejaw (Cape)",
+    "scientificName": "Oplegnathus conwayi",
+    "lengthType": "Fork length",
+    "smithNo": "206.1",
+    "logIntercept": -8.149279594,
+    "slope": 2.317797899
+  },
+  {
+    "commonName": "Knifejaw (Natal)",
+    "scientificName": "Oplegnathus robinsoni",
+    "lengthType": "Fork length",
+    "smithNo": "206.3",
+    "logIntercept": -8.629741669,
+    "slope": 2.479295969
+  },
+  {
+    "commonName": "Kob (Common / Dusky)",
+    "scientificName": "Argyrosomus japonicus",
+    "lengthType": "Total length",
+    "smithNo": "199.1",
+    "logIntercept": -11.64128017,
+    "slope": 3.039433002
+  },
+  {
+    "commonName": "Kob (Silver)",
+    "scientificName": "Argyrosomus inodorus",
+    "lengthType": "Total length",
+    "smithNo": "199.1",
+    "logIntercept": -11.85997963,
+    "slope": 3.069457054
+  },
+  {
+    "commonName": "Kob (Small)",
+    "scientificName": "Johnius dussumieri",
+    "lengthType": "Total length",
+    "smithNo": "199.6",
+    "logIntercept": -12.04582381,
+    "slope": 3.279993075
+  },
+  {
+    "commonName": "Kob (Snapper)",
+    "scientificName": "Otolithes ruber",
+    "lengthType": "Total length",
+    "smithNo": "199.7",
+    "logIntercept": -11.91613007,
+    "slope": 3.129451036
+  },
+  {
+    "commonName": "Kob (Squaretail)",
+    "scientificName": "Argyrosomus thorpei",
+    "lengthType": "Total length",
+    "smithNo": "199.2",
+    "logIntercept": -11.0719099,
+    "slope": 2.889766932
+  },
+  {
+    "commonName": "Leervis / Garrick",
+    "scientificName": "Lichia amia",
+    "lengthType": "Fork length",
+    "smithNo": "210.33",
+    "logIntercept": -10.16016912,
+    "slope": 2.724997342
+  },
+  {
+    "commonName": "Lemonfish",
+    "scientificName": "Plectorhinchus flavomaculatus",
+    "lengthType": "Fork length",
+    "smithNo": "179.3",
+    "logIntercept": -10.77190018,
+    "slope": 2.946597099
+  },
+  {
+    "commonName": "Maasbanker",
+    "scientificName": "Trachurus trachurus capensis",
+    "lengthType": "Fork length",
+    "smithNo": "210.52",
+    "logIntercept": -11.76134544,
+    "slope": 3.010989873
+  },
+  {
+    "commonName": "Mackerel",
+    "scientificName": "Scomber japonicus",
+    "lengthType": "Fork length",
+    "smithNo": "249.11",
+    "logIntercept": -12.22801971,
+    "slope": 3.311351061
+  },
+  {
+    "commonName": "Mackerel (Indian)",
+    "scientificName": "Rastrelliger kanagurta",
+    "lengthType": "Fork length",
+    "smithNo": "249.8",
+    "logIntercept": -11.96550294,
+    "slope": 3.170004373
+  },
+  {
+    "commonName": "Mackerel (King) / Couta",
+    "scientificName": "Scomberomorus commerson",
+    "lengthType": "Fork length",
+    "smithNo": "249.12",
+    "logIntercept": -12.93945026,
+    "slope": 3.252603054
+  },
+  {
+    "commonName": "Mackerel (Queen)",
+    "scientificName": "Scomberomorus plurilineatus",
+    "lengthType": "Fork length",
+    "smithNo": "249.13",
+    "logIntercept": -11.41833019,
+    "slope": 2.941289902
+  },
+  {
+    "commonName": "Marlin (Black)",
+    "scientificName": "Makaira indica",
+    "lengthType": "Lower bill fork length",
+    "smithNo": "252.2",
+    "logIntercept": -11.94376423,
+    "slope": 2.960011686
+  },
+  {
+    "commonName": "Marlin (Striped)",
+    "scientificName": "Tetrapturus audax",
+    "lengthType": "Lower bill fork length",
+    "smithNo": "252.6",
+    "logIntercept": -7.663268501,
+    "slope": 2.199996862
+  },
+  {
+    "commonName": "Milkfish",
+    "scientificName": "Chanos chanos",
+    "lengthType": "Fork length",
+    "smithNo": "58.1",
+    "logIntercept": -11.82630077,
+    "slope": 3.251006967
+  },
+  {
+    "commonName": "Mirrorfish (Indian)",
+    "scientificName": "Alectis indicus",
+    "lengthType": "Fork length",
+    "smithNo": "210.2",
+    "logIntercept": -9.80172522,
+    "slope": 2.640677
+  },
+  {
+    "commonName": "Mirrorfish (Threadfin)",
+    "scientificName": "Alectis ciliaris",
+    "lengthType": "Fork length",
+    "smithNo": "210.1",
+    "logIntercept": -10.09704883,
+    "slope": 2.849995135
+  },
+  {
+    "commonName": "Moony (Cape)",
+    "scientificName": "Monodactylus falciformis",
+    "lengthType": "Fork length",
+    "smithNo": "193.2",
+    "logIntercept": -10.40680981,
+    "slope": 2.964607
+  },
+  {
+    "commonName": "Moony (Natal)",
+    "scientificName": "Monodactylus argenteus",
+    "lengthType": "Fork length",
+    "smithNo": "193.1",
+    "logIntercept": -10.40303156,
+    "slope": 2.964097522
+  },
+  {
+    "commonName": "Mullet (Bluetail)",
+    "scientificName": "Valamugil buchanani",
+    "lengthType": "Fork length",
+    "smithNo": "222.12",
+    "logIntercept": -11.50212002,
+    "slope": 3.104231119
+  },
+  {
+    "commonName": "Mullet (Diamond)",
+    "scientificName": "Liza alata",
+    "lengthType": "Fork length",
+    "smithNo": "222.2",
+    "logIntercept": -11.36104012,
+    "slope": 3.065074921
+  },
+  {
+    "commonName": "Mullet (Flathead)",
+    "scientificName": "Mugil cephalus",
+    "lengthType": "Fork length",
+    "smithNo": "222.10",
+    "logIntercept": -11.36104012,
+    "slope": 3.065074921
+  },
+  {
+    "commonName": "Mullet (Southern)",
+    "scientificName": "Liza richardsonii",
+    "lengthType": "Fork length",
+    "smithNo": "222.7",
+    "logIntercept": -11.36104012,
+    "slope": 3.065074921
+  },
+  {
+    "commonName": "Mullet (Striped)",
+    "scientificName": "Liza tricuspidens",
+    "lengthType": "Fork length",
+    "smithNo": "222.8",
+    "logIntercept": -11.36104012,
+    "slope": 3.065074921
+  },
+  {
+    "commonName": "Musselcracker (Black)",
+    "scientificName": "Cymatoceps nasutus",
+    "lengthType": "Fork length",
+    "smithNo": "183.15",
+    "logIntercept": -10.6225996,
+    "slope": 3.03468895
+  },
+  {
+    "commonName": "Musselcracker (White)",
+    "scientificName": "Sparodon durbanensis",
+    "lengthType": "Fork length",
+    "smithNo": "183.40",
+    "logIntercept": -10.84058952,
+    "slope": 3.037132025
+  },
+  {
+    "commonName": "Needlefish (Barred)",
+    "scientificName": "Ablennes hians",
+    "lengthType": "Fork length",
+    "smithNo": "113.1",
+    "logIntercept": -14.15301037,
+    "slope": 3.126049995
+  },
+  {
+    "commonName": "Needlefish (Crocodile)",
+    "scientificName": "Tylosurus crocodilus crocodilus",
+    "lengthType": "Fork length",
+    "smithNo": "113.4",
+    "logIntercept": -14.06372621,
+    "slope": 3.204949062
+  },
+  {
+    "commonName": "Needlefish (Yellowfin)",
+    "scientificName": "Strongylura leiura",
+    "lengthType": "Fork length",
+    "smithNo": "113.3",
+    "logIntercept": -11.53367043,
+    "slope": 2.515065908
+  },
+  {
+    "commonName": "Old Woman",
+    "scientificName": "Pomacanthus striatus",
+    "lengthType": "Total length",
+    "smithNo": "204.12",
+    "logIntercept": -10.85877991,
+    "slope": 2.970304012
+  },
+  {
+    "commonName": "Panga",
+    "scientificName": "Pterogymnus laniarius",
+    "lengthType": "Fork length",
+    "smithNo": "183.34",
+    "logIntercept": -10.7483975,
+    "slope": 3.030999847
+  },
+  {
+    "commonName": "Parrotfish (Bluebarred)",
+    "scientificName": "Scarus ghobban",
+    "lengthType": "Fork length",
+    "smithNo": "221.11",
+    "logIntercept": -11.01560974,
+    "slope": 3.041918039
+  },
+  {
+    "commonName": "Piggy",
+    "scientificName": "Pomadasys olivaceum",
+    "lengthType": "Fork length",
+    "smithNo": "179.17",
+    "logIntercept": -10.03312016,
+    "slope": 2.702342033
+  },
+  {
+    "commonName": "Pomfret (Black)",
+    "scientificName": "Parastromateus niger",
+    "lengthType": "Fork length",
+    "smithNo": "210.36",
+    "logIntercept": -10.76624012,
+    "slope": 3.011996031
+  },
+  {
+    "commonName": "Pompano (Largespot)",
+    "scientificName": "Trachinotus botla",
+    "lengthType": "Fork length",
+    "smithNo": "210.50",
+    "logIntercept": -10.84959984,
+    "slope": 2.944704056
+  },
+  {
+    "commonName": "Pompano (Snubnose)",
+    "scientificName": "Trachinotus blochii",
+    "lengthType": "Fork length",
+    "smithNo": "210.49",
+    "logIntercept": -7.522987605,
+    "slope": 2.252003003
+  },
+  {
+    "commonName": "Pompano (Southern)",
+    "scientificName": "Trachinotus africanus",
+    "lengthType": "Fork length",
+    "smithNo": "210.47",
+    "logIntercept": -10.4811339,
+    "slope": 2.887
+  },
+  {
+    "commonName": "Porcupinefish",
+    "scientificName": "Diodon hystrix",
+    "lengthType": "Total length",
+    "smithNo": "269.6",
+    "logIntercept": -8.161070824,
+    "slope": 2.344594955
+  },
+  {
+    "commonName": "Prodigal Son",
+    "scientificName": "Rachycentron canadum",
+    "lengthType": "Fork length",
+    "smithNo": "212.1",
+    "logIntercept": -12.08916687,
+    "slope": 3.159997553
+  },
+  {
+    "commonName": "Queenfish (Doublespotted)",
+    "scientificName": "Scomberoides lysan",
+    "lengthType": "Fork length",
+    "smithNo": "210.39",
+    "logIntercept": -11.35838032,
+    "slope": 2.896507025
+  },
+  {
+    "commonName": "Queenfish (Talang)",
+    "scientificName": "Scomberoides commersonnianus",
+    "lengthType": "Fork length",
+    "smithNo": "210.38",
+    "logIntercept": -10.4296999,
+    "slope": 2.808700085
+  },
+  {
+    "commonName": "Rabbitfish (Whitespotted)",
+    "scientificName": "Siganus sutor",
+    "lengthType": "Fork length",
+    "smithNo": "245.2",
+    "logIntercept": -9.730881691,
+    "slope": 2.756633997
+  },
+  {
+    "commonName": "Rainbow Runner",
+    "scientificName": "Elagatis bipinnulata",
+    "lengthType": "Fork length",
+    "smithNo": "210.31",
+    "logIntercept": -11.2153101,
+    "slope": 2.920517921
+  },
+  {
+    "commonName": "Remora",
+    "scientificName": "Remora remora",
+    "lengthType": "Fork length",
+    "smithNo": "213.5",
+    "logIntercept": -12.38527434,
+    "slope": 3.000015677
+  },
+  {
+    "commonName": "Rockcod (Bigspot)",
+    "scientificName": "Epinephelus macrospilos",
+    "lengthType": "Total length",
+    "smithNo": "166.40",
+    "logIntercept": -11.22684002,
+    "slope": 3.028954983
+  },
+  {
+    "commonName": "Rockcod (Catface)",
+    "scientificName": "Epinephelus andersoni",
+    "lengthType": "Total length",
+    "smithNo": "166.34",
+    "logIntercept": -10.91963005,
+    "slope": 2.905693054
+  },
+  {
+    "commonName": "Rockcod (Halfmoon)",
+    "scientificName": "Epinephelus rivulatus",
+    "lengthType": "Total length",
+    "smithNo": "166.60",
+    "logIntercept": -10.91030025,
+    "slope": 2.967303038
+  },
+  {
+    "commonName": "Rockcod (Malabar)",
+    "scientificName": "Epinephelus malabaricus",
+    "lengthType": "Total length",
+    "smithNo": "166.48",
+    "logIntercept": -11.26603435,
+    "slope": 3.029993548
+  },
+  {
+    "commonName": "Rockcod (Streakyspot)",
+    "scientificName": "Epinephelus longispinis",
+    "lengthType": "Total length",
+    "smithNo": "166.46",
+    "logIntercept": -11.11575031,
+    "slope": 3.017632008
+  },
+  {
+    "commonName": "Rockcod (White Edged)",
+    "scientificName": "Epinephelus albomarginatus",
+    "lengthType": "Total length",
+    "smithNo": "166.33",
+    "logIntercept": -11.44960763,
+    "slope": 3.085002615
+  },
+  {
+    "commonName": "Rockcod (Yellowbelly)",
+    "scientificName": "Epinephelus marginatus",
+    "lengthType": "Total length",
+    "smithNo": "166.43",
+    "logIntercept": -11.16611958,
+    "slope": 3.055620909
+  },
+  {
+    "commonName": "Rockcod (Yellowtail)",
+    "scientificName": "Epinephelus flavocaeruleus",
+    "lengthType": "Fork length",
+    "smithNo": "166.41",
+    "logIntercept": -11.07188034,
+    "slope": 3.000761986
+  },
+  {
+    "commonName": "Roman",
+    "scientificName": "Chrysoblephus laticeps",
+    "lengthType": "Fork length",
+    "smithNo": "183.11",
+    "logIntercept": -10.97504044,
+    "slope": 3.153796911
+  },
+  {
+    "commonName": "Rubberlip (Barred)",
+    "scientificName": "Plectorhinchus plagiodesmus",
+    "lengthType": "Fork length",
+    "smithNo": "179.6",
+    "logIntercept": -10.77190018,
+    "slope": 2.946597099
+  },
+  {
+    "commonName": "Rubberlip (Black)",
+    "scientificName": "Plectorhinchus gibbosus",
+    "lengthType": "Total length",
+    "smithNo": "179.5",
+    "logIntercept": -10.77190018,
+    "slope": 2.946597099
+  },
+  {
+    "commonName": "Rubberlip (Blackspotted)",
+    "scientificName": "Plectorhinchus gaterinus",
+    "lengthType": "Total length",
+    "smithNo": "179.4",
+    "logIntercept": -10.77190018,
+    "slope": 2.946597099
+  },
+  {
+    "commonName": "Rubberlip (Dusky)",
+    "scientificName": "Plectorhinchus chubbi",
+    "lengthType": "Fork length",
+    "smithNo": "179.2",
+    "logIntercept": -10.77190018,
+    "slope": 2.946597099
+  },
+  {
+    "commonName": "Rubberlip (Minstrel)",
+    "scientificName": "Plectorhinchus schotaf",
+    "lengthType": "Total length",
+    "smithNo": "179.8",
+    "logIntercept": -10.77190018,
+    "slope": 2.946597099
+  },
+  {
+    "commonName": "Rubberlip (Redlip)",
+    "scientificName": "Plectorhinchus sordidus",
+    "lengthType": "Fork length",
+    "smithNo": "179.9",
+    "logIntercept": -10.77190018,
+    "slope": 2.946597099
+  },
+  {
+    "commonName": "Rubberlip (Whitebarred)",
+    "scientificName": "Plectorhinchus playfairi",
+    "lengthType": "Fork length",
+    "smithNo": "179.7",
+    "logIntercept": -10.77190018,
+    "slope": 2.946597099
+  },
+  {
+    "commonName": "Sailfish",
+    "scientificName": "Istiophorus platypterus",
+    "lengthType": "Lower bill fork length",
+    "smithNo": "252.1",
+    "logIntercept": -11.06186602,
+    "slope": 2.819003397
+  },
+  {
+    "commonName": "Santer",
+    "scientificName": "Cheimerius nufar",
+    "lengthType": "Fork length",
+    "smithNo": "183.7",
+    "logIntercept": -9.32266217,
+    "slope": 2.570996097
+  },
+  {
+    "commonName": "Scad (Torpedo)",
+    "scientificName": "Megalaspis cordyla",
+    "lengthType": "Fork length",
+    "smithNo": "210.34",
+    "logIntercept": -9.962116241,
+    "slope": 2.581084967
+  },
+  {
+    "commonName": "Scorpionfish (Spineblotch)",
+    "scientificName": "Sebastapistes mauritiana",
+    "lengthType": "Total length",
+    "smithNo": "149.38",
+    "logIntercept": -10.87395,
+    "slope": 3.010509968
+  },
+  {
+    "commonName": "Scotsman",
+    "scientificName": "Polysteganus praeorbitalis",
+    "lengthType": "Fork length",
+    "smithNo": "183.31",
+    "logIntercept": -10.17846012,
+    "slope": 2.810271978
+  },
+  {
+    "commonName": "Seventy-four",
+    "scientificName": "Polysteganus undulosus",
+    "lengthType": "Fork length",
+    "smithNo": "183.32",
+    "logIntercept": -9.663599416,
+    "slope": 2.662591822
+  },
+  {
+    "commonName": "Slimy",
+    "scientificName": "Leiognathus equulus",
+    "lengthType": "Fork length",
+    "smithNo": "201.3",
+    "logIntercept": -10.51998997,
+    "slope": 2.979665995
+  },
+  {
+    "commonName": "Slinger",
+    "scientificName": "Chrysoblephus puniceps",
+    "lengthType": "Fork length",
+    "smithNo": "183.13",
+    "logIntercept": -9.950784683,
+    "slope": 2.819475889
+  },
+  {
+    "commonName": "Snapper",
+    "scientificName": "Lutjanus sanguineus",
+    "lengthType": "Fork length",
+    "smithNo": "181.18",
+    "logIntercept": -10.90315893,
+    "slope": 2.919999823
+  },
+  {
+    "commonName": "Snapper (Bohar)",
+    "scientificName": "Lutjanus bohar",
+    "lengthType": "Fork length",
+    "smithNo": "181.6",
+    "logIntercept": -10.44656912,
+    "slope": 2.901143485
+  },
+  {
+    "commonName": "Snapper (Humpback)",
+    "scientificName": "Lutjanus gibbus",
+    "lengthType": "Fork length",
+    "smithNo": "181.10",
+    "logIntercept": -11.24155045,
+    "slope": 3.137221098
+  },
+  {
+    "commonName": "Snapper (River)",
+    "scientificName": "Lutjanus argentimaculatus",
+    "lengthType": "Fork length",
+    "smithNo": "181.5",
+    "logIntercept": -7.397116184,
+    "slope": 2.210448027
+  },
+  {
+    "commonName": "Snapper (Russells)",
+    "scientificName": "Lutjanus russellii",
+    "lengthType": "Fork length",
+    "smithNo": "181.17",
+    "logIntercept": -11.00728209,
+    "slope": 2.977883463
+  },
+  {
+    "commonName": "Snapper (Speckled)",
+    "scientificName": "Lutjanus rivulatus",
+    "lengthType": "Fork length",
+    "smithNo": "181.16",
+    "logIntercept": -11.68373796,
+    "slope": 3.260165012
+  },
+  {
+    "commonName": "Snoek",
+    "scientificName": "Thyrsites atun",
+    "lengthType": "Total length",
+    "smithNo": "247.8",
+    "logIntercept": -11.85997963,
+    "slope": 3.069457054
+  },
+  {
+    "commonName": "Soldier (Blotcheye)",
+    "scientificName": "Myripristis murdjan",
+    "lengthType": "Total length",
+    "smithNo": "132.26",
+    "logIntercept": -10.85581017,
+    "slope": 3.034080982
+  },
+  {
+    "commonName": "Soldierbream (King)",
+    "scientificName": "Argyrops spinifer",
+    "lengthType": "Fork length",
+    "smithNo": "183.4",
+    "logIntercept": -9.435992316,
+    "slope": 2.657001083
+  },
+  {
+    "commonName": "Sole (Shallow water)",
+    "scientificName": "Synaptura marginata",
+    "lengthType": "Total length",
+    "smithNo": "262.14",
+    "logIntercept": -11.82723045,
+    "slope": 3.070030928
+  },
+  {
+    "commonName": "Spadefish",
+    "scientificName": "Tripterodon orbis",
+    "lengthType": "Fork length",
+    "smithNo": "192.4",
+    "logIntercept": -9.570588112,
+    "slope": 2.740123034
+  },
+  {
+    "commonName": "Springer",
+    "scientificName": "Elops machnata",
+    "lengthType": "Fork length",
+    "smithNo": "36.2",
+    "logIntercept": -11.84140076,
+    "slope": 3.052694005
+  },
+  {
+    "commonName": "Steenbras (Red)",
+    "scientificName": "Petrus rupestris",
+    "lengthType": "Fork length",
+    "smithNo": "183.26",
+    "logIntercept": -10.63455963,
+    "slope": 2.952753067
+  },
+  {
+    "commonName": "Steenbras (Sand)",
+    "scientificName": "Lithognathus mormyrus",
+    "lengthType": "Fork length",
+    "smithNo": "183.21",
+    "logIntercept": -11.27960228,
+    "slope": 3.0630939
+  },
+  {
+    "commonName": "Steenbras (Westcoast)",
+    "scientificName": "Lithognathus aureti",
+    "lengthType": "Fork length",
+    "smithNo": "183.19",
+    "logIntercept": -10.54615021,
+    "slope": 2.945183992
+  },
+  {
+    "commonName": "Steenbras (White)",
+    "scientificName": "Lithognathus lithognathus",
+    "lengthType": "Fork length",
+    "smithNo": "183.20",
+    "logIntercept": -11.13979326,
+    "slope": 3.031065185
+  },
+  {
+    "commonName": "Steentjie",
+    "scientificName": "Spondyliosoma emarginatum",
+    "lengthType": "Fork length",
+    "smithNo": "183.41",
+    "logIntercept": -10.74057779,
+    "slope": 3.037413954
+  },
+  {
+    "commonName": "Strepie",
+    "scientificName": "Sarpa salpa",
+    "lengthType": "Fork length",
+    "smithNo": "183.14",
+    "logIntercept": -11.31787786,
+    "slope": 3.180003552
+  },
+  {
+    "commonName": "Stumpnose (Bigeye)",
+    "scientificName": "Rhabdosargus thorpei",
+    "lengthType": "Fork length",
+    "smithNo": "183.38",
+    "logIntercept": -10.59704971,
+    "slope": 3.030087948
+  },
+  {
+    "commonName": "Stumpnose (Cape)",
+    "scientificName": "Rhabdosargus holubi",
+    "lengthType": "Fork length",
+    "smithNo": "183.36",
+    "logIntercept": -10.06836424,
+    "slope": 2.9266004
+  },
+  {
+    "commonName": "Stumpnose (Natal)",
+    "scientificName": "Rhabdosargus sarba",
+    "lengthType": "Fork length",
+    "smithNo": "183.27",
+    "logIntercept": -9.575611766,
+    "slope": 2.680001572
+  },
+  {
+    "commonName": "Stumpnose (Red)",
+    "scientificName": "Chrysoblephus gibbiceps",
+    "lengthType": "Fork length",
+    "smithNo": "183.10",
+    "logIntercept": -10.05760956,
+    "slope": 2.892155886
+  },
+  {
+    "commonName": "Stumpnose (White)",
+    "scientificName": "Rhabdosargus globiceps",
+    "lengthType": "Fork length",
+    "smithNo": "183.35",
+    "logIntercept": -11.01552963,
+    "slope": 3.078875065
+  },
+  {
+    "commonName": "Tarpon (Oxeye)",
+    "scientificName": "Megalops cyprinoides",
+    "lengthType": "Fork length",
+    "smithNo": "37.1",
+    "logIntercept": -11.31407461,
+    "slope": 3.033
+  },
+  {
+    "commonName": "Thornfish",
+    "scientificName": "Terapon jarbua",
+    "lengthType": "Fork length",
+    "smithNo": "173.2",
+    "logIntercept": -11.08113038,
+    "slope": 3.081997392
+  },
+  {
+    "commonName": "Threadfin (Striped)",
+    "scientificName": "Polydactylus plebeius",
+    "lengthType": "Fork length",
+    "smithNo": "223.3",
+    "logIntercept": -10.8985363,
+    "slope": 2.997683594
+  },
+  {
+    "commonName": "Tjor-tjor (Red)",
+    "scientificName": "Pagellus bellottii natalensis",
+    "lengthType": "Total length",
+    "smithNo": "183.25",
+    "logIntercept": -11.91059017,
+    "slope": 3.379415035
+  },
+  {
+    "commonName": "Triggerfish (Bridle)",
+    "scientificName": "Sufflamen fraenatus",
+    "lengthType": "Total length",
+    "smithNo": "263.17",
+    "logIntercept": -10.38154638,
+    "slope": 2.9470048
+  },
+  {
+    "commonName": "Triggerfish (Clown)",
+    "scientificName": "Balistoides conspicillum",
+    "lengthType": "Total length",
+    "smithNo": "263.4",
+    "logIntercept": -10.62203026,
+    "slope": 3.018528938
+  },
+  {
+    "commonName": "Triggerfish (Patchy)",
+    "scientificName": "Rhinecanthus rectangulus",
+    "lengthType": "Total length",
+    "smithNo": "263.14",
+    "logIntercept": -10.24499035,
+    "slope": 2.874799967
+  },
+  {
+    "commonName": "Tripletail",
+    "scientificName": "Lobotes surinamensis",
+    "lengthType": "Total length",
+    "smithNo": "202.1",
+    "logIntercept": -10.05537987,
+    "slope": 2.839261055
+  },
+  {
+    "commonName": "Tuna (Bigeye)",
+    "scientificName": "Thunnus obesus",
+    "lengthType": "Fork length",
+    "smithNo": "249.17",
+    "logIntercept": -10.63911242,
+    "slope": 2.9773974
+  },
+  {
+    "commonName": "Tuna (Bluefin)",
+    "scientificName": "Thunnus thynnus thynnus",
+    "lengthType": "Fork length",
+    "smithNo": "249.18",
+    "logIntercept": -10.67263985,
+    "slope": 2.933377981
+  },
+  {
+    "commonName": "Tuna (Eastern Little)",
+    "scientificName": "Euthynnus affinis",
+    "lengthType": "Fork length",
+    "smithNo": "249.4",
+    "logIntercept": -10.62724018,
+    "slope": 2.908230066
+  },
+  {
+    "commonName": "Tuna (Skipjack)",
+    "scientificName": "Katsuwonus pelamis",
+    "lengthType": "Fork length",
+    "smithNo": "249.7",
+    "logIntercept": -12.24932003,
+    "slope": 3.377445936
+  },
+  {
+    "commonName": "Tuna (Slender)",
+    "scientificName": "Allothunnus fallai",
+    "lengthType": "Fork length",
+    "smithNo": "249.2",
+    "logIntercept": -11.0926199,
+    "slope": 2.999663115
+  },
+  {
+    "commonName": "Tuna (Yellowfin)",
+    "scientificName": "Thunnus albacares",
+    "lengthType": "Fork length",
+    "smithNo": "249.15",
+    "logIntercept": -10.74747225,
+    "slope": 2.976003045
+  },
+  {
+    "commonName": "Wahoo",
+    "scientificName": "Acanthocybium solandri",
+    "lengthType": "Fork length",
+    "smithNo": "N/A",
+    "logIntercept": -12.89534182,
+    "slope": 3.190023619
+  },
+  {
+    "commonName": "Wolfherring",
+    "scientificName": "Chirocentrus dorab",
+    "lengthType": "Fork length",
+    "smithNo": "56.1",
+    "logIntercept": -12.18833307,
+    "slope": 2.987190766
+  },
+  {
+    "commonName": "Wrasse (Ladder)",
+    "scientificName": "Thalassoma trilobatum",
+    "lengthType": "Fork length",
+    "smithNo": "220.65",
+    "logIntercept": -11.165960309999999,
+    "slope": 3.007407904
+  },
+  {
+    "commonName": "Wrasse (Natal)",
+    "scientificName": "Anchichoerops natalensis",
+    "lengthType": "Fork length",
+    "smithNo": "220.4",
+    "logIntercept": -11.165960309999999,
+    "slope": 3.007407904
+  },
+  {
+    "commonName": "Wrasse (Rainbow)",
+    "scientificName": "Halichoeres iridis",
+    "lengthType": "Fork length",
+    "smithNo": "220.31",
+    "logIntercept": -11.165960309999999,
+    "slope": 3.007407904
+  },
+  {
+    "commonName": "Wrasse (Surge)",
+    "scientificName": "Thalassoma purpureum",
+    "lengthType": "Fork length",
+    "smithNo": "220.63",
+    "logIntercept": -11.165960309999999,
+    "slope": 3.007407904
+  },
+  {
+    "commonName": "Yellowtail (Giant)",
+    "scientificName": "Seriola lalandi",
+    "lengthType": "Fork length",
+    "smithNo": "210.44",
+    "logIntercept": -10.31437016,
+    "slope": 2.756263971
+  },
+  {
+    "commonName": "Yellowtail (Longfin)",
+    "scientificName": "Seriola rivoliana",
+    "lengthType": "Fork length",
+    "smithNo": "210.45",
+    "logIntercept": -11.14533043,
+    "slope": 3.055823088
+  },
+  {
+    "commonName": "Zebra",
+    "scientificName": "Diplodus cervinus hottentotus",
+    "lengthType": "Fork length",
+    "smithNo": "183.16",
+    "logIntercept": -10.9492374,
+    "slope": 3.1409986
+  }
+]
